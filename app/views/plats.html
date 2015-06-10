@@ -1,0 +1,57 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div role="tabpanel" class="tab-position wow bounceInUp">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active col-md-4"><a href="#menu1" aria-controls="menu1" role="tab"
+                                                               data-toggle="tab"><i class="fa fa-cutlery"></i> <strong>NEW
+              YEAR</strong> 2016</a></li>
+          </ul>
+          <!-- /ul nav-tabs -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="menu1">
+              <div data-ng-repeat="plat in listPlats">
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="media">
+                      <div class="media-left">
+                        <a href="#">
+                          <img class="media-object " src="../template/image/menu1.jpg" alt="Menu 1">
+                        </a>
+                      </div>
+                      <!-- /media-left -->
+                      <div class="media-body ">
+                        <h3 class="media-heading"><strong>{{plat.name}}</strong></h3>
+
+                        <p>{{plat.description}}</p>
+
+                      </div>
+                      <!-- /media-body -->
+                    </div>
+                    <!-- /media -->
+                  </div>
+                  <!-- /col-md-11 -->
+                  <div class="col-md-3">
+                  </div>
+                  <div class="col-md-1">
+                    <h3 class="price">{{plat.prix}}{{plat.monnaie.symbole}}</h3>
+                  </div>
+                  <!-- /col-md-1 -->
+                </div>
+                <!-- /.row -->
+                <hr>
+              </div>
+            </div>
+          </div>
+          <!-- /.tab-content -->
+        </div>
+        <!-- /tabpanel -->
+      </div>
+      <!-- /col-md-12 -->
+    </div>
+    <!-- /.row-->
+  </div>
+  <!-- /.container-->
+</section>

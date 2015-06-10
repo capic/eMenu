@@ -1,0 +1,66 @@
+[
+  {
+    "id":"1",
+    "nom":"plat 1",
+    "prix":"12,5",
+    "description":"description plat 1",
+    "monnaie":{
+      "id":"1",
+      "nom":"Euro",
+      "trigramme":"eur",
+      "symbole":"€"
+    },
+    "categories":[
+      {
+        "id":"1",
+        "nom":"categorie 1"
+      },
+      {
+        "id":"2",
+        "nom":"catregorie 2"
+      }
+    ],
+    "ingredients":[
+      {
+        "id":"1",
+        "nom":"ingredient 1"
+      },
+      {
+        "id":"2",
+        "nom":"ingredient 2"
+      },
+      {
+        "id":"3",
+        "nom":"ingredient 3"
+      }
+    ]
+  },
+  {
+    "id":"2",
+    "nom":"plat 2",
+    "prix":"35",
+    "description":"description plat 2",
+    "monnaie":{
+      "id":"1",
+      "nom":"Euro",
+      "trigramme":"eur",
+      "symbole":"€"
+    },
+    "categories":[
+      {
+        "id":"2",
+        "nom":"catregorie 2"
+      }
+    ],
+    "ingredients":[
+      {
+        "id":"1",
+        "nom":"ingredient 1"
+      },
+      {
+        "id":"3",
+        "nom":"ingredient 3"
+      }
+    ]
+  }
+]
